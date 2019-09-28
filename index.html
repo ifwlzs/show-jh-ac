@@ -28,17 +28,17 @@
 			}
 			
 			body .t {
-				margin: 100px auto 20px auto;
-				color: #008000;
+				margin: 0 auto;
+				color: #ffae89;
 				font-weight: bolder;
 				text-align: center;
-				font-size: 50px;
+				font-size: 30px;
 				padding: 20px 0;
 			}
 			
 			table {
 				text-align: center;
-				margin: 0px auto 50px auto;
+				margin: 10px auto 30px auto;
 				border: 1px solid dodgerblue;
 			}
 			
@@ -49,43 +49,147 @@
 				font-weight: bolder;
 			}
 			
+			td {
+				font-size: 30px;
+				color: #008000;
+				font-weight: bolder;
+			}
+			
 			#no {
 				padding-bottom: 5%;
-				padding-top: 3%;
+				padding-top: 20px;
 				margin: 0 auto;
 				text-align: center;
 				vertical-align: middle;
 				width: 100%;
 			}
+			
+			.tbody {
+				margin: 10px auto 40px auto;
+				/*border: red 1px solid;*/
+				width: 90%;
+				overflow: auto;
+				background: rgba(255, 255, 255, .4);
+				border-radius: 55px;
+			}
+			
+			.fl {
+				border: blue 1px solid;
+				height: 100px;
+				padding: 1%;
+				width: 25%;
+				float: left;
+				margin: 12px 3%;
+				text-align: center;
+				vertical-align: middle;
+				box-shadow: 0 0 5px 5px #dbdcff;
+				border-radius: 20px;
+				background: #dcffdb;
+			}
+			
+			.clearFloat:after {
+				content: " ";
+				display: none;
+				height: 0;
+				visibility: hidden;
+				clear: both;
+			}
+			
+			.clearFloat {}
+			
+			@media only screen and (min-width: 0px) and (max-width: 640px) {
+				.fl {
+					border: blue 1px solid;
+					height: 160px;
+					padding: 1%;
+					width: 41%;
+					float: left;
+					margin: 3% 3%;
+					text-align: center;
+					vertical-align: middle;
+					background: #dcffdb;
+				}
+			}
+			
+			@media only screen and (min-width: 700px) and (max-width: 1000px) {
+				.fl {
+					border: blue 1px solid;
+					height: 120px;
+					padding: 1%;
+					width: 25%;
+					float: left;
+					margin: 10px 3%;
+					text-align: center;
+					vertical-align: middle;
+					background: #dcffdb;
+				}
+			}
 		</style>
 	</head>
 
 	<body>
-		<div class="t">最新站点</div>
-		<table border="1px" cellspacing="0" cellpadding="20px">
+		<div class="t">This is my website release page! •ᴗ•</div>
+		<div class="tbody clearFloat">
+			<a href="https://jh.wlzs.cf">
+				<div class="fl">
+					菊の导航站
+					<div style="color: #000; font-size: 20px; margin: 15px auto 0 auto;">
+						全网资源搜索导航
+					</div>
+				</div>
+			</a>
 
-			<tr>
-				<td>
-					<a href="https://jh.wlzs.cf">https://jh.wlzs.cf</a>
-				</td>
-			</tr>
-			<tr>
-				<td>
-					<a href="https://jh.ifwlzs.ml">https://jh.ifwlzs.ml</a>
-				</td>
-			</tr>
-			<tr>
-				<td>
-					<a href="http://jh.wlzs.cf">http://jh.wlzs.cf</a>
-				</td>
-			</tr>
-			<tr>
-				<td>
-					<a href="http://jh.ifwlzs.ml">http://jh.ifwlzs.ml</a>
-				</td>
-			</tr>
+			<a href="https://baidu.wlzs.ml">
+				<div class="fl">
+					帮你百度下
+					<div style="color: #000; font-size: 20px; margin: 15px auto 0 auto;">
+						生成百度某词的过程
+					</div>
+				</div>
+			</a>
 
-		</table>
+			<a href="http://movie.ifwlzs.gq">
+				<div class="fl">
+					电影盘
+					<div style="color: #000; font-size: 20px; margin: 15px auto 0 auto;">
+						OneDrive电影盘资源共享
+					</div>
+				</div>
+			</a>
+			<a href="http://soft.ifwlzs.gq">
+				<div class="fl">
+					软件盘
+					<div style="color: #000; font-size: 20px; margin: 15px auto 0 auto;">
+						OneDrive软件盘资源共享
+					</div>
+				</div>
+			</a>
+			<a href="http://game.ifwlzs.gq">
+				<div class="fl">
+					游戏盘
+					<div style="color: #000; font-size: 20px; margin: 15px auto 0 auto;">
+						OneDrive游戏盘资源共享
+					</div>
+				</div>
+			</a>
+			<a href="https://tool.wlzs.ml">
+				<div class="fl">
+					MiniTool
+					<div style="color: #000; font-size: 20px; margin: 15px auto 0 auto;">
+						在线工具箱
+					</div>
+				</div>
+			</a>
+			<a href="img/py1.png">
+				<div class="fl">
+					打赏作者
+					<div style="color: #000; font-size: 20px; margin: 15px auto 0 auto;">
+						域名即将到期,点此续命
+					</div>
+				</div>
+			</a>
+
+		</div>
 		<div id="no">
 			© 2018-2019&nbsp;本站数据均由WLZS添加，所有资源全部收集于互联网，如有侵权，请联系我们。
 		</div>
