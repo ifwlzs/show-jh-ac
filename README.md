@@ -1,5 +1,3 @@
 # showjh
 
-https://ac.wlzs.tk
-
-http://ac.wlzs.tk
+http://ifwlzs.github.io/show-ss-ak
